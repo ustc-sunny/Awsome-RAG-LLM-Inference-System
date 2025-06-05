@@ -1,2 +1,2 @@
-# Awsome-LLM-Inference-in-limited-resource
-A survey about LLM inference on limited resource, like single GPU, mobile device, etc.
+# Awsome-RAG-LLM-Inference-System
+A survey about RAG-based LLM inference: a survey about systematic designs
