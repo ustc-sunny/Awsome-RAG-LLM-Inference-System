@@ -51,7 +51,7 @@ RAG-based LLM inference: a survey about systematic designs
 * [Robust Implementation of Retrieval-Augmented Generation on Edge-based Computing-in-Memory Architectures](https://dl.acm.org/doi/10.1145/3676536.3676674), ICCAD 2024
 * [Compute-Enabled CXL Memory Expansion for Efficient Retrieval Augmented Generation](https://ieeexplore.ieee.org/document/11022767), IEEE Micro 2025
 * [HDANNS: In-Memory Hyperdimensional Computing for Billion-Scale Approximate Nearest Neighbour Search Acceleration](https://ieeexplore.ieee.org/document/10880114), TCSAI 2025
-* [https://arxiv.org/pdf/2410.15621](https://ieeexplore.ieee.org/document/10880114), Arxiv 2024
+* [DRIM-ANN: An Approximate Nearest Neighbor Search Engine based on Commercial DRAM-PIMs](https://arxiv.org/pdf/2410.15621), Arxiv 2024
 * [Co-design Hardware and Algorithm for Vector Search](https://dl.acm.org/doi/pdf/10.1145/3581784.3607045), SC 2023
 * [DF-GAS: a Distributed FPGA-as-a-Service Architecture towards Billion-Scale Graph-based Approximate Nearest Neighbor Search](https://dl.acm.org/doi/abs/10.1145/3613424.3614292), MICRO 2023
 * [Accelerating Graph-based Vector Search via Delayed-Synchronization Traversal](https://arxiv.org/pdf/2406.12385), VLDB 2025
