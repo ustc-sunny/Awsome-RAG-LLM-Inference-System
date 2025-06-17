@@ -10,6 +10,8 @@ RAG-based LLM inference: a survey about systematic designs
 * [GGNN: Graph-Based GPU Nearest Neighbor Search](https://ieeexplore.ieee.org/document/9739943/), TBD 2023
 * [An Adaptive Vector Index Partitioning Scheme for Low-Latency RAG Pipeline](https://arxiv.org/pdf/2504.08930), Arxiv 2025
 * [BANG: Billion-Scale Approximate Nearest Neighbor Search using a Single GPU](https://arxiv.org/pdf/2401.11324v1), Arxiv 2025 #
+* [PilotANN: Memory-Bounded GPU Acceleration for Vector Search](https://arxiv.org/pdf/2503.21206), Arxiv 2025
+* [VecFlow: A High-Performance Vector Data Management System for Filtered-Search on GPUs](https://arxiv.org/pdf/2506.00812), SIGMOD 2026
 
 
 ## 2. Data Reuse and Pipeline Parallelism
@@ -18,6 +20,7 @@ RAG-based LLM inference: a survey about systematic designs
 * [CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion](https://arxiv.org/abs/2405.16444), Eurosys 2025 (Best Paper)
 * [Leveraging Approximate Caching for Faster Retrieval-Augmented Generation](https://arxiv.org/pdf/2503.05530), EuroMLSys 2025
 * [SPFresh: Incremental In-Place Update for Billion-Scale Vector Search](https://dl.acm.org/doi/abs/10.1145/3600006.3613166), SOSP 2023
+* [Revisiting the Index Construction of Proximity Graph-Based Approximate Nearest Neighbor Search](https://arxiv.org/pdf/2410.01231), VLDB 2025
 ### Pipeline Parallelism
 * [PipeRAG: Fast Retrieval-Augmented Generation via Adaptive Pipeline Parallelism](https://arxiv.org/pdf/2403.05676), KDD 2025 #
 * [RAGDoll: Efficient Offloading-based Online RAG System on a Single GPU](https://arxiv.org/abs/2504.15302), Arxiv 2025 #
@@ -30,7 +33,8 @@ RAG-based LLM inference: a survey about systematic designs
 * [ELERAG: Efficient Retrieval-Augmented Generation Inference with Lookahead Retrieval](https://arxiv.org/abs/2502.20969), Arxiv 2025
 * [Patchwork: A Unified Framework for RAG Serving](https://arxiv.org/pdf/2505.07833), Arxiv 2025
 * [AquaPipe: A Quality-Aware Pipeline for Knowledge Retrieval and Large Language Models](https://dl.acm.org/doi/abs/10.1145/3709661), SIGMOD 2025
-* 
+* [VSAG: An Optimized Search Framework for Graph-based Approximate Nearest Neighbor Search](https://arxiv.org/pdf/2503.17911), VLDB 2025
+* [Efficient Graph-Based Approximate Nearest Neighbor Search Achieving: Low Latency Without Throughput Loss](https://arxiv.org/pdf/2504.20461), Arxiv 2025
 
 ## 3. External Memory Accelerating
 ### 3.1 Processing in memory
@@ -49,6 +53,7 @@ RAG-based LLM inference: a survey about systematic designs
 * [https://arxiv.org/pdf/2410.15621](https://ieeexplore.ieee.org/document/10880114), Arxiv 2024
 * [Co-design Hardware and Algorithm for Vector Search](https://dl.acm.org/doi/pdf/10.1145/3581784.3607045), SC 2023
 * [DF-GAS: a Distributed FPGA-as-a-Service Architecture towards Billion-Scale Graph-based Approximate Nearest Neighbor Search](https://dl.acm.org/doi/abs/10.1145/3613424.3614292), MICRO 2023
+* [Accelerating Graph-based Vector Search via Delayed-Synchronization Traversal](https://arxiv.org/pdf/2406.12385), VLDB 2025
 ### 3.2 Second-tier Memory
 * [Starling: An I/O-Efficient Disk-Resident Graph Index Framework for High-Dimensional Vector Similarity Search on Data Segment](https://arxiv.org/pdf/2401.02116), SIGMOD 2024
 * [Characterizing the Dilemma of Performance and Index Size in Billion-Scale Vector Search and Breaking It with Second-Tier Memory](https://arxiv.org/pdf/2405.03267), Arxiv 2024
