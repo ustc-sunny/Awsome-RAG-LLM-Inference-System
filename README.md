@@ -15,14 +15,14 @@ RAG-based LLM inference: a survey about systematic designs
 
 
 ## 2. Data Reuse and Pipeline Parallelism
-### Data Reuse
+### 2.1 Data Reuse
 * [Cache-Craft: Managing Chunk-Caches for Efficient Retrieval-Augmented Generation](https://arxiv.org/pdf/2502.15734v1), SIGMOD 2025
 * [CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion](https://arxiv.org/abs/2405.16444), Eurosys 2025 (Best Paper)
 * [Leveraging Approximate Caching for Faster Retrieval-Augmented Generation](https://arxiv.org/pdf/2503.05530), EuroMLSys 2025
 * [SPFresh: Incremental In-Place Update for Billion-Scale Vector Search](https://dl.acm.org/doi/abs/10.1145/3600006.3613166), SOSP 2023
 * [Revisiting the Index Construction of Proximity Graph-Based Approximate Nearest Neighbor Search](https://arxiv.org/pdf/2410.01231), VLDB 2025
 * [EdgeRAG: Online-Indexed RAG for Edge Devices](https://arxiv.org/pdf/2412.21023), Arxiv 2024
-### Pipeline Parallelism
+### 2.2 Pipeline Parallelism
 * [PipeRAG: Fast Retrieval-Augmented Generation via Adaptive Pipeline Parallelism](https://arxiv.org/pdf/2403.05676), KDD 2025 #
 * [RAGDoll: Efficient Offloading-based Online RAG System on a Single GPU](https://arxiv.org/abs/2504.15302), Arxiv 2025 #
 * [Quake: Adaptive Indexing for Vector Search](https://arxiv.org/pdf/2506.03437), OSDI 2025
