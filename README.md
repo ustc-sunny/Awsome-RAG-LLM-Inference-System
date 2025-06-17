@@ -14,10 +14,10 @@ RAG-based LLM inference: a survey about systematic designs
 * [Cache-Craft: Managing Chunk-Caches for Efficient Retrieval-Augmented Generation](https://arxiv.org/pdf/2502.15734v1), SIGMOD 2025
 * [CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion](https://arxiv.org/abs/2405.16444), Eurosys 2025 (Best Paper)
 ### Pipeline Parallelism
-* [PipeRAG: Fast Retrieval-Augmented Generation via Adaptive Pipeline Parallelism](https://arxiv.org/pdf/2403.05676), KDD 2025
+* [PipeRAG: Fast Retrieval-Augmented Generation via Adaptive Pipeline Parallelism](https://arxiv.org/pdf/2403.05676), KDD 2025 #
 * [RAGDoll: Efficient Offloading-based Online RAG System on a Single GPU](https://arxiv.org/abs/2504.15302), Arxiv 2025
 * [Quake: Adaptive Indexing for Vector Search](https://arxiv.org/pdf/2506.03437), OSDI 2025
-* [iQAN : Fast and Accurate Vector Search with Efficient Intra-Query Parallelism on Multi-Core Architectures](https://dl.acm.org/doi/abs/10.1145/3572848.3577527), PPoPP 2023
+* [iQAN: Fast and Accurate Vector Search with Efficient Intra-Query Parallelism on Multi-Core Architectures](https://dl.acm.org/doi/abs/10.1145/3572848.3577527), PPoPP 2023
 * [ParlayANN: Scalable and Deterministic Parallel Graph-Based Approximate Nearest Neighbor Search Algorithms](https://www.cs.ucr.edu/~yihans/papers/2024/PPoPP24/parlayann.pdf), PPoPP 2024
 
 ## 3. External Memory Accelerating
@@ -25,6 +25,9 @@ RAG-based LLM inference: a survey about systematic designs
 * [Scalable Billion-point Approximate Nearest Neighbor Search Using SmartSSDs](https://www.usenix.org/system/files/atc24-tian.pdf), ATC 2024
 * [Accelerating large-scale graph-based nearest neighbor search on a computational storage platform](https://ieeexplore.ieee.org/document/9726805), TC 2022
 * [Accelerating Retrieval-Augmented Generation](https://dl.acm.org/doi/10.1145/3669940.3707264), ASPLOS 2025
+* [NDSEARCH: Accelerating Graph-Traversal-Based Approximate Nearest Neighbor Search through Near Data Processing](https://arxiv.org/pdf/2312.03141), ISCA 2024
+* [Fast Graph Vector Search via Hardware Acceleration and Delayed-Synchronization](https://arxiv.org/pdf/2406.12385), VLDB 2025 #
+* [Chameleon: a Heterogeneous and Disaggregated Accelerator System for Retrieval-Augmented Language Models](https://www.vldb.org/pvldb/vol18/p42-jiang.pdf), VLDB 2025 #
 ### 3.2 Second-tier Memory
 * [Starling: An I/O-Efficient Disk-Resident Graph Index Framework for High-Dimensional Vector Similarity Search on Data Segment](https://arxiv.org/pdf/2401.02116), SIGMOD 2024
 * [Characterizing the Dilemma of Performance and Index Size in Billion-Scale Vector Search and Breaking It with Second-Tier Memory](https://arxiv.org/pdf/2405.03267), Arxiv 2024
