@@ -9,11 +9,16 @@ RAG-based LLM inference: a survey about systematic designs
 * [Towards High-throughput and Low-latency Billion-scale Vector Search via CPU/GPU Collaborative Filtering and Re-ranking](https://www.usenix.org/system/files/fast25-tian-bing.pdf), FAST 2025
 * [GGNN: Graph-Based GPU Nearest Neighbor Search](https://ieeexplore.ieee.org/document/9739943/), TBD 2023
 
-## 2. Pipeline Parallelism
+## 2. Data Reuse and Pipeline Parallelism
+### Data Reuse
+* [Cache-Craft: Managing Chunk-Caches for Efficient Retrieval-Augmented Generation](https://arxiv.org/pdf/2502.15734v1), SIGMOD 2025
+* [CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion](https://arxiv.org/abs/2405.16444), Eurosys 2025 (Best Paper)
+### Pipeline Parallelism
 * [PipeRAG: Fast Retrieval-Augmented Generation via Adaptive Pipeline Parallelism](https://arxiv.org/pdf/2403.05676), KDD 2025
+* [RAGDoll: Efficient Offloading-based Online RAG System on a Single GPU](https://arxiv.org/abs/2504.15302), Arxiv 2025
 * [Quake: Adaptive Indexing for Vector Search](https://arxiv.org/pdf/2506.03437), OSDI 2025
 * [iQAN : Fast and Accurate Vector Search with Efficient Intra-Query Parallelism on Multi-Core Architectures](https://dl.acm.org/doi/abs/10.1145/3572848.3577527), PPoPP 2023
-* 
+* [ParlayANN: Scalable and Deterministic Parallel Graph-Based Approximate Nearest Neighbor Search Algorithms](https://www.cs.ucr.edu/~yihans/papers/2024/PPoPP24/parlayann.pdf), PPoPP 2024
 
 ## 3. External Memory Accelerating
 ### 3.1 Processing in memory
