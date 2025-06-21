@@ -25,6 +25,9 @@ RAG-based LLM inference: a survey about systematic designs
 * [Don't do rag: When cache-augmented generation is all you need for knowledge tasks](https://dl.acm.org/doi/pdf/10.1145/3701716.3715490), WWW 2025
 * [A Generative Caching System for Large Language Models](https://arxiv.org/pdf/2503.17603), Arxiv 2025
 * [MemoRAG: Boosting Long Context Processing with Global Memory-Enhanced Retrieval Augmentation](https://dl.acm.org/doi/abs/10.1145/3696410.3714805), WWW 2025
+* [HyperRAG: Enhancing Quality-Efficiency Tradeoffs in Retrieval-Augmented Generation with Reranker KV-Cache Reuse](https://arxiv.org/pdf/2504.02921?), Arxiv 2025
+* [CacheFocus: Dynamic Cache Re-Positioning for Efficient Retrieval-Augmented Generation](https://arxiv.org/pdf/2502.11101?), Arxiv 2025
+* 
 ### 2.2 Pipeline Parallelism
 * [PipeRAG: Fast Retrieval-Augmented Generation via Adaptive Pipeline Parallelism](https://arxiv.org/pdf/2403.05676), KDD 2025 #
 * [RAGDoll: Efficient Offloading-based Online RAG System on a Single GPU](https://arxiv.org/abs/2504.15302), Arxiv 2025 #
