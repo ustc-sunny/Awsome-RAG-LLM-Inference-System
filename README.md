@@ -62,6 +62,7 @@ RAG-based LLM inference: a survey about systematic designs
 * [DF-GAS: a Distributed FPGA-as-a-Service Architecture towards Billion-Scale Graph-based Approximate Nearest Neighbor Search](https://dl.acm.org/doi/abs/10.1145/3613424.3614292), MICRO 2023
 * [Accelerating Graph-based Vector Search via Delayed-Synchronization Traversal](https://arxiv.org/pdf/2406.12385), VLDB 2025
 ### 3.2 Second-tier Memory
+* [Achieving Low-Latency Graph-Based Vector Search via Aligning Best-First Search Algorithm with SSD](https://www.usenix.org/conference/osdi25/presentation/guo), OSDI 2025
 * [Starling: An I/O-Efficient Disk-Resident Graph Index Framework for High-Dimensional Vector Similarity Search on Data Segment](https://arxiv.org/pdf/2401.02116), SIGMOD 2024
 * [Characterizing the Dilemma of Performance and Index Size in Billion-Scale Vector Search and Breaking It with Second-Tier Memory](https://arxiv.org/pdf/2405.03267), Arxiv 2024
 * [HM-ANN: Efficient Billion-Point Nearest Neighbor Search on Heterogeneous Memory](https://papers.nips.cc/paper/2020/hash/788d986905533aba051261497ecffcbb-Abstract.html), NIPS 2020
