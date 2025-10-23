@@ -27,7 +27,7 @@ RAG-based LLM inference: a survey about systematic designs
 * [MemoRAG: Boosting Long Context Processing with Global Memory-Enhanced Retrieval Augmentation](https://dl.acm.org/doi/abs/10.1145/3696410.3714805), WWW 2025
 * [HyperRAG: Enhancing Quality-Efficiency Tradeoffs in Retrieval-Augmented Generation with Reranker KV-Cache Reuse](https://arxiv.org/pdf/2504.02921?), Arxiv 2025
 * [CacheFocus: Dynamic Cache Re-Positioning for Efficient Retrieval-Augmented Generation](https://arxiv.org/pdf/2502.11101?), Arxiv 2025
-* [RAGServe: Fast Quality-Aware RAG Systems with Configuration Adaptation](https://arxiv.org/pdf/2412.10543), SOSP 2025
+* [METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation](https://arxiv.org/pdf/2412.10543), SOSP 2025
 * 
 ### 2.2 Pipeline Parallelism
 * [PipeRAG: Fast Retrieval-Augmented Generation via Adaptive Pipeline Parallelism](https://arxiv.org/pdf/2403.05676), KDD 2025 #
