@@ -42,6 +42,7 @@ RAG-based LLM inference: a survey about systematic designs
 * [AquaPipe: A Quality-Aware Pipeline for Knowledge Retrieval and Large Language Models](https://dl.acm.org/doi/abs/10.1145/3709661), SIGMOD 2025
 * [VSAG: An Optimized Search Framework for Graph-based Approximate Nearest Neighbor Search](https://arxiv.org/pdf/2503.17911), VLDB 2025
 * [Efficient Graph-Based Approximate Nearest Neighbor Search Achieving: Low Latency Without Throughput Loss](https://arxiv.org/pdf/2504.20461), Arxiv 2025
+* [DepCache: A KV Cache Management Framework for GraphRAG with Dependency Attention](https://dl.acm.org/doi/10.1145/3769778), SIGMOD 2026
 
 ## 3. External Memory Accelerating
 ### 3.1 Processing in memory
@@ -71,3 +72,7 @@ RAG-based LLM inference: a survey about systematic designs
 * [DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node](https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html), NIPS 2019
 * [LSM-VEC: A Large-Scale Disk-Based System for Dynamic Vector Search](https://arxiv.org/pdf/2505.17152), SOSP 2025
 * [FreshDiskANN: A Fast and Accurate Graph-Based ANN Index for Streaming Similarity Search](https://arxiv.org/abs/2105.09613), Arxiv 2021
+
+## 4. Application of RAG
+* For Query Optimizer: [SEFRQO: A Self-Evolving Fine-Tuned RAG-Based Query Optimizer](https://dl.acm.org/doi/10.1145/3769826), SIGMOD 2026 
+* For Table QA: [AixelAsk: A Stepwise-Guided Retrieval and Reasoning Framework for Large Table QA](https://dl.acm.org/doi/10.1145/3769831), SIGMOD 2026
