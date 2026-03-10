@@ -3,7 +3,8 @@ RAG-based LLM inference: a survey about systematic designs
 
 ## Survey writing support
 If you want to turn this paper list into a survey paper draft, start from [SURVEY_OUTLINE.md](./SURVEY_OUTLINE.md). It maps the current references into a paper structure, comparison dimensions, and open research questions.
-The repository now also includes a first survey draft in [Survey_paper.md](./Survey_paper.md) and the generated PDF artifact [Survey_paper.pdf](./Survey_paper.pdf).
+The repository now also includes an editable LaTeX survey manuscript in [Survey_paper.tex](./Survey_paper.tex), a BibTeX reference database in [references.bib](./references.bib), the earlier Markdown draft in [Survey_paper.md](./Survey_paper.md), and the generated PDF artifact [Survey_paper.pdf](./Survey_paper.pdf).
+To rebuild the PDF locally, run `pdflatex Survey_paper.tex && bibtex Survey_paper && pdflatex Survey_paper.tex && pdflatex Survey_paper.tex`.
 
 ## 1. GPU Accelerating
 * [RAGO: Systematic Performance Optimization for Retrieval-Augmented Generation Serving](https://arxiv.org/abs/2503.14649), ISCA 2025
