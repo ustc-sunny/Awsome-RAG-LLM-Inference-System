@@ -1,6 +1,9 @@
 # Awsome-RAG-LLM-Inference-System
 RAG-based LLM inference: a survey about systematic designs
 
+## Survey writing support
+If you want to turn this paper list into a survey paper draft, start from [SURVEY_OUTLINE.md](./SURVEY_OUTLINE.md). It maps the current references into a paper structure, comparison dimensions, and open research questions.
+
 ## 1. GPU Accelerating
 * [RAGO: Systematic Performance Optimization for Retrieval-Augmented Generation Serving](https://arxiv.org/abs/2503.14649), ISCA 2025
 * [Hermes: Algorithm-System Co-design for Efficient Retrieval Augmented Generation At Scale](https://michaeltshen.github.io/Files/Hermes.pdf), ISCA 2025
