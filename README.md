@@ -1,4 +1,4 @@
-# Awsome-RAG-LLM-Inference-System
+# Awesome-RAG-LLM-Inference-System
 RAG-based LLM inference: a survey about systematic designs
 
 ## Survey writing support

@@ -20,7 +20,7 @@ This message matches the current repository organization and can be used as the 
 
 ## 3. Recommended paper structure
 
-### Abstract
+### 3.1 Abstract
 - Introduce RAG as an inference-time systems problem, not only a model-quality problem.
 - Explain that the survey focuses on **systematic designs** for efficient RAG inference.
 - Summarize the main design axes:
@@ -31,7 +31,7 @@ This message matches the current repository organization and can be used as the 
   - emerging applications
 - State the survey contribution: taxonomy, comparison, trends, and open challenges.
 
-### 1. Introduction
+### 3.2 Introduction
 - Why RAG inference is important for modern LLM systems
 - Why system design matters:
   - retrieval latency
@@ -45,7 +45,7 @@ This message matches the current repository organization and can be used as the 
   2. A comparison of architectural trade-offs
   3. A summary of open problems and future opportunities
 
-### 2. Background
+### 3.3 Background
 - RAG pipeline overview:
   1. query encoding
   2. vector retrieval
@@ -68,11 +68,11 @@ This message matches the current repository organization and can be used as the 
   - memory footprint
   - energy efficiency
 
-### 3. Taxonomy of RAG Inference System Design
+### 3.4 Taxonomy of RAG Inference System Design
 
 This can be the central taxonomy figure in the paper.
 
-#### 3.1 GPU acceleration
+#### 3.4.1 GPU acceleration
 Use papers from **README Section 1**.
 
 Focus questions:
@@ -88,7 +88,7 @@ Representative papers:
 - PilotANN
 - CPU/GPU collaborative filtering and re-ranking
 
-#### 3.2 Data reuse and cache-centric optimization
+#### 3.4.2 Data reuse and cache-centric optimization
 Use papers from **README Section 2.1**.
 
 Focus questions:
@@ -104,7 +104,7 @@ Representative papers:
 - CacheFocus
 - METIS
 
-#### 3.3 Pipeline parallelism and scheduling
+#### 3.4.3 Pipeline parallelism and scheduling
 Use papers from **README Section 2.2**.
 
 Focus questions:
@@ -120,18 +120,18 @@ Representative papers:
 - ELERAG
 - DGRAG
 
-#### 3.4 External-memory and storage-aware acceleration
+#### 3.4.4 External-memory and storage-aware acceleration
 Use papers from **README Section 3**.
 
 Split the discussion into two parts:
 
-##### 3.4.1 Processing-in-memory / near-data processing
+##### 3.4.4.1 Processing-in-memory / near-data processing
 - SmartSSD-based systems
 - computational storage platforms
 - PIM/CIM-based RAG acceleration
 - FPGA or accelerator-assisted vector search
 
-##### 3.4.2 Second-tier memory and disk-resident vector search
+##### 3.4.4.2 Second-tier memory and disk-resident vector search
 - DiskANN family
 - SSD-aligned search designs
 - heterogeneous memory systems
@@ -144,7 +144,7 @@ Core comparison points:
 - storage-compute co-design
 - scalability beyond GPU memory
 
-#### 3.5 Application-driven RAG systems
+#### 3.4.5 Application-driven RAG systems
 Use papers from **README Section 4**.
 
 Focus questions:
@@ -152,43 +152,43 @@ Focus questions:
 - What retrieval patterns appear in database, table QA, or enterprise settings?
 - Which application-specific workloads motivate new optimizations?
 
-### 4. Cross-cutting design dimensions
+### 3.5 Cross-cutting design dimensions
 
 This section can synthesize the entire survey.
 
 Recommended subsections:
 
-#### 4.1 Latency vs. quality trade-off
+#### 3.5.1 Latency vs. quality trade-off
 - Approximate retrieval
 - cache-based shortcuts
 - lookahead retrieval
 - configuration adaptation
 
-#### 4.2 Throughput vs. memory capacity
+#### 3.5.2 Throughput vs. memory capacity
 - GPU memory limits
 - KV-cache growth
 - disaggregated memory
 - external or second-tier memory
 
-#### 4.3 Static indexing vs. dynamic updates
+#### 3.5.3 Static indexing vs. dynamic updates
 - online indexing
 - incremental update
 - streaming vector search
 - freshness constraints
 
-#### 4.4 Monolithic vs. heterogeneous architectures
+#### 3.5.4 Monolithic vs. heterogeneous architectures
 - CPU/GPU co-design
 - GPU + SSD
 - SmartSSD / storage compute
 - edge-cloud or distributed RAG
 
-#### 4.5 Retrieval-centric vs. generation-centric optimization
+#### 3.5.5 Retrieval-centric vs. generation-centric optimization
 - ANN speedup
 - prompt assembly efficiency
 - decode-time cache reuse
 - end-to-end pipeline balancing
 
-### 5. Suggested comparison table
+### 3.6 Suggested comparison table
 
 Create one main table in the survey with the following columns:
 
@@ -207,7 +207,7 @@ You can extend the table with:
 - quality metric
 - open-source availability
 
-### 6. Suggested figures
+### 3.7 Suggested figures
 
 Recommended figures for the survey:
 
@@ -231,7 +231,7 @@ Recommended figures for the survey:
    - x-axis: latency / throughput
    - y-axis: memory capacity / scalability
 
-### 7. Key research trends to highlight
+### 3.8 Key research trends to highlight
 
 Based on the current paper list, the survey can emphasize these trends:
 
@@ -250,30 +250,30 @@ Based on the current paper list, the survey can emphasize these trends:
 5. **Quality-aware adaptation is emerging**
    - newer systems optimize for both quality and efficiency, not just speed
 
-### 8. Open challenges and future directions
+### 3.9 Open challenges and future directions
 
 This section can help make the survey forward-looking.
 
-#### 8.1 Unified evaluation methodology
+#### 3.9.1 Unified evaluation methodology
 - Different papers use different datasets, metrics, and serving assumptions.
 - A survey should call for more standardized end-to-end RAG benchmarks.
 
-#### 8.2 Joint optimization of retrieval and decoding
+#### 3.9.2 Joint optimization of retrieval and decoding
 - Many systems still optimize retrieval and generation separately.
 - Future systems may co-optimize chunk selection, prompt layout, and decode scheduling.
 
-#### 8.3 Dynamic and continuously updated knowledge bases
+#### 3.9.3 Dynamic and continuously updated knowledge bases
 - Freshness remains difficult in large-scale ANN indexes and caches.
 - This is especially important for production RAG systems.
 
-#### 8.4 Hardware/software co-design for long-context RAG
+#### 3.9.4 Hardware/software co-design for long-context RAG
 - Long contexts amplify memory pressure and KV-cache costs.
 - Future work may combine compression, reuse, and near-data acceleration.
 
-#### 8.5 Multi-tenant and production serving
+#### 3.9.5 Multi-tenant and production serving
 - The current literature is still limited in multi-tenant isolation, SLO management, and cost-aware scheduling.
 
-#### 8.6 Application-specific RAG inference
+#### 3.9.6 Application-specific RAG inference
 - Database systems, enterprise QA, coding assistants, and edge deployment may require different RAG architectures.
 
 ## 4. Writing plan
