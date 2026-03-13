@@ -12,6 +12,9 @@ RAG-based LLM inference: a survey about systematic designs
 * [BANG: Billion-Scale Approximate Nearest Neighbor Search using a Single GPU](https://arxiv.org/pdf/2401.11324v1), Arxiv 2025 #
 * [PilotANN: Memory-Bounded GPU Acceleration for Vector Search](https://arxiv.org/pdf/2503.21206), Arxiv 2025
 * [VecFlow: A High-Performance Vector Data Management System for Filtered-Search on GPUs](https://arxiv.org/pdf/2506.00812), SIGMOD 2026
+* [A Systematic Characterization of LLM Inference on GPUs](https://arxiv.org/pdf/2512.01644), Arxiv 2025
+* [A Real-Time Adaptive Multi-Stream GPU System for Online Approximate Nearest Neighborhood Search](https://dl.acm.org/doi/pdf/10.1145/3627673.3680054), CIKM 2024
+
 
 
 ## 2. Data Reuse and Pipeline Parallelism
@@ -28,7 +31,14 @@ RAG-based LLM inference: a survey about systematic designs
 * [HyperRAG: Enhancing Quality-Efficiency Tradeoffs in Retrieval-Augmented Generation with Reranker KV-Cache Reuse](https://arxiv.org/pdf/2504.02921?), Arxiv 2025
 * [CacheFocus: Dynamic Cache Re-Positioning for Efficient Retrieval-Augmented Generation](https://arxiv.org/pdf/2502.11101?), Arxiv 2025
 * [METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation](https://arxiv.org/pdf/2412.10543), SOSP 2025
-* 
+* [CacheClip: Accelerating RAG with Effective KV Cache Reuse](https://arxiv.org/pdf/2510.10129?), Arxiv 2025
+* [CONTEXTPILOT: FAST LONG-CONTEXT INFERENCE VIA CONTEXT REUSE](https://arxiv.org/pdf/2511.03475), MLSYS 2026
+* [RAPID: Long-Context Inference with Retrieval-Augmented Speculative Decoding](https://arxiv.org/pdf/2502.20330), ICML 2025
+* [Turborag: Accelerating retrieval-augmented generation with precomputed kv caches for chunked text](https://aclanthology.org/2025.emnlp-main.334.pdf), EMNLP 2025
+* [OpenRAG: Optimizing RAG End-to-End via In-Context Retrieval Learning](https://arxiv.org/pdf/2503.08398), ICLR 2025 WKSP
+* [AdaCache: Adaptive Caching and Context Augmentation for Efficient LLM Serving](https://openreview.net/forum?id=Bmvx8ybDzo), ICLR 2026
+* [Speculative RAG: Enhancing Retrieval Augmented Generation through Drafting](https://openreview.net/forum?id=xgQfWbV6Ey), ICLR 2025
+  
 ### 2.2 Pipeline Parallelism
 * [PipeRAG: Fast Retrieval-Augmented Generation via Adaptive Pipeline Parallelism](https://arxiv.org/pdf/2403.05676), KDD 2025 #
 * [RAGDoll: Efficient Offloading-based Online RAG System on a Single GPU](https://arxiv.org/abs/2504.15302), Arxiv 2025 #
@@ -43,6 +53,11 @@ RAG-based LLM inference: a survey about systematic designs
 * [VSAG: An Optimized Search Framework for Graph-based Approximate Nearest Neighbor Search](https://arxiv.org/pdf/2503.17911), VLDB 2025
 * [Efficient Graph-Based Approximate Nearest Neighbor Search Achieving: Low Latency Without Throughput Loss](https://arxiv.org/pdf/2504.20461), Arxiv 2025
 * [DepCache: A KV Cache Management Framework for GraphRAG with Dependency Attention](https://dl.acm.org/doi/10.1145/3769778), SIGMOD 2026
+* [VectorLiteRAG: Latency-Aware and Fine-Grained Resource Partitioning for Efficient RAG](https://arxiv.org/pdf/2504.08930), HPCA 2026
+* [HedraRAG: Co-Optimizing Generation and Retrieval for Heterogeneous RAG Workflows](https://dl.acm.org/doi/pdf/10.1145/3731569.3764806), SOSP 2025
+* [CoEdge-RAG: Optimizing Hierarchical Scheduling for Retrieval-Augmented LLMs in Collaborative Edge Computing](https://arxiv.org/pdf/2511.05915), RTSS 2025
+* [AdaRAG: Adaptive Optimization for Retrieval Augmented Generation with Multilevel Retrievers at the Edge](https://ieeexplore.ieee.org/abstract/document/11044685), INFOCOM 2025
+* [Patchwork: A Unified Framework for RAG Serving](https://arxiv.org/pdf/2505.07833)
 
 ## 3. External Memory Accelerating
 ### 3.1 Processing in memory
@@ -57,12 +72,15 @@ RAG-based LLM inference: a survey about systematic designs
 * [DReX: Accurate and Scalable Dense Retrieval Acceleration via Algorithmic-Hardware Codesign](https://arg.csl.cornell.edu/) ISCA 2025
 * [Robust Implementation of Retrieval-Augmented Generation on Edge-based Computing-in-Memory Architectures](https://dl.acm.org/doi/10.1145/3676536.3676674), ICCAD 2024
 * [Compute-Enabled CXL Memory Expansion for Efficient Retrieval Augmented Generation](https://ieeexplore.ieee.org/document/11022767), IEEE Micro 2025
+* [Performance Analysis and CXL Memory Optimization in Cluster-based RAG Systems](https://ieeexplore.ieee.org/abstract/document/11298523),IEEE Transactions on Computers 2025
 * [HDANNS: In-Memory Hyperdimensional Computing for Billion-Scale Approximate Nearest Neighbour Search Acceleration](https://ieeexplore.ieee.org/document/10880114), TCSAI 2025
 * [DRIM-ANN: An Approximate Nearest Neighbor Search Engine based on Commercial DRAM-PIMs](https://arxiv.org/pdf/2410.15621), Arxiv 2024
 * [Co-design Hardware and Algorithm for Vector Search](https://dl.acm.org/doi/pdf/10.1145/3581784.3607045), SC 2023
 * [DF-GAS: a Distributed FPGA-as-a-Service Architecture towards Billion-Scale Graph-based Approximate Nearest Neighbor Search](https://dl.acm.org/doi/abs/10.1145/3613424.3614292), MICRO 2023
 * [Accelerating Graph-based Vector Search via Delayed-Synchronization Traversal](https://arxiv.org/pdf/2406.12385), VLDB 2025
 * [In-Storage Acceleration of Retrieval Augmented Generation as a Service](https://dl.acm.org/doi/full/10.1145/3695053.3731032), ISCA 2025
+* [No atomics, no problem. Developing a RAG pipeline for shared CXL memory](https://ieeexplore.ieee.org/abstract/document/11408866), TC 2026
+
 ### 3.2 Second-tier Memory
 * [Achieving Low-Latency Graph-Based Vector Search via Aligning Best-First Search Algorithm with SSD](https://www.usenix.org/conference/osdi25/presentation/guo), OSDI 2025
 * [Starling: An I/O-Efficient Disk-Resident Graph Index Framework for High-Dimensional Vector Similarity Search on Data Segment](https://arxiv.org/pdf/2401.02116), SIGMOD 2024
@@ -72,7 +90,19 @@ RAG-based LLM inference: a survey about systematic designs
 * [DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node](https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html), NIPS 2019
 * [LSM-VEC: A Large-Scale Disk-Based System for Dynamic Vector Search](https://arxiv.org/pdf/2505.17152), SOSP 2025
 * [FreshDiskANN: A Fast and Accurate Graph-Based ANN Index for Streaming Similarity Search](https://arxiv.org/abs/2105.09613), Arxiv 2021
+* [Disk-Based Shared KV Cache Management for Fast Inference in Multi-Instance LLM RAG Systems](https://discos.sogang.ac.kr/file/2025/intl_conf/CLOUD_2025_H_Lee.pdf), CLOUD 2025
+* [CUBO: Self-Contained Retrieval-Augmented Generation on Consumer Laptops 10 GB Corpora, 16 GB RAM, Single-Device Deployment](https://arxiv.org/pdf/2602.03731), Arxiv 2026
+
+## RAG Security
+* [Machine Against the RAG: Jamming RetrievalAugmented Generation with Blocker Documents](https://www.usenix.org/system/files/usenixsecurity25-shafran.pdf), USENIX Security 2025
+* [https://arxiv.org/pdf/2506.04390](https://arxiv.org/pdf/2506.04390), Arxiv 2025
+* [Benchmarking Knowledge-Extraction Attack and Defense on Retrieval-Augmented Generation](https://arxiv.org/pdf/2602.09319), Arxiv 2026
+* [Addressing Corpus Knowledge Poisoning Attacks on RAG Using Sparse Attention](https://arxiv.org/pdf/2602.04711), Arxiv 2026
+* [Sector-Aware Cyber Threat Intelligence: A Security-EnhancedRAG Framework for Precision Threat Analysis](https://www.dline.info/jisr/fulltext/v17n1/jisrv17n1_1.pdf), Journal of Information Security Research 2026
+* [Push and Pull : Defending Against Retrieval Poisoning Attacks via Embedding Space Reshaping](https://dl.acm.org/doi/pdf/10.1145/3800948), ACM Trans. Inf. Syst. 2026
 
 ## 4. Application of RAG
 * For Query Optimizer: [SEFRQO: A Self-Evolving Fine-Tuned RAG-Based Query Optimizer](https://dl.acm.org/doi/10.1145/3769826), SIGMOD 2026 
 * For Table QA: [AixelAsk: A Stepwise-Guided Retrieval and Reasoning Framework for Large Table QA](https://dl.acm.org/doi/10.1145/3769831), SIGMOD 2026
+* For drug: [RAG-based architectures for drug side effectretrieval using compact LLMs](https://www.nature.com/articles/s41598-026-41495-2_reference.pdf), Scientific Reports
+* 
