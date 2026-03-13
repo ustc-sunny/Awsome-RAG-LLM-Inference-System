@@ -95,7 +95,7 @@ RAG-based LLM inference: a survey about systematic designs
 
 ## RAG Security
 * [Machine Against the RAG: Jamming RetrievalAugmented Generation with Blocker Documents](https://www.usenix.org/system/files/usenixsecurity25-shafran.pdf), USENIX Security 2025
-* [https://arxiv.org/pdf/2506.04390](https://arxiv.org/pdf/2506.04390), Arxiv 2025
+* [THROUGH THE STEALTH LENS: RETHINKINGATTACKS AND DEFENSES IN RAG](https://arxiv.org/pdf/2506.04390), Arxiv 2025
 * [Benchmarking Knowledge-Extraction Attack and Defense on Retrieval-Augmented Generation](https://arxiv.org/pdf/2602.09319), Arxiv 2026
 * [Addressing Corpus Knowledge Poisoning Attacks on RAG Using Sparse Attention](https://arxiv.org/pdf/2602.04711), Arxiv 2026
 * [Sector-Aware Cyber Threat Intelligence: A Security-EnhancedRAG Framework for Precision Threat Analysis](https://www.dline.info/jisr/fulltext/v17n1/jisrv17n1_1.pdf), Journal of Information Security Research 2026
