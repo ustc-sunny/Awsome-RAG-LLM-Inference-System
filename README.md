@@ -93,7 +93,7 @@ RAG-based LLM inference: a survey about systematic designs
 * [Disk-Based Shared KV Cache Management for Fast Inference in Multi-Instance LLM RAG Systems](https://discos.sogang.ac.kr/file/2025/intl_conf/CLOUD_2025_H_Lee.pdf), CLOUD 2025
 * [CUBO: Self-Contained Retrieval-Augmented Generation on Consumer Laptops 10 GB Corpora, 16 GB RAM, Single-Device Deployment](https://arxiv.org/pdf/2602.03731), Arxiv 2026
 
-## RAG Security
+## 4. RAG Security
 * [Machine Against the RAG: Jamming RetrievalAugmented Generation with Blocker Documents](https://www.usenix.org/system/files/usenixsecurity25-shafran.pdf), USENIX Security 2025
 * [THROUGH THE STEALTH LENS: RETHINKINGATTACKS AND DEFENSES IN RAG](https://arxiv.org/pdf/2506.04390), Arxiv 2025
 * [Benchmarking Knowledge-Extraction Attack and Defense on Retrieval-Augmented Generation](https://arxiv.org/pdf/2602.09319), Arxiv 2026
@@ -101,7 +101,7 @@ RAG-based LLM inference: a survey about systematic designs
 * [Sector-Aware Cyber Threat Intelligence: A Security-EnhancedRAG Framework for Precision Threat Analysis](https://www.dline.info/jisr/fulltext/v17n1/jisrv17n1_1.pdf), Journal of Information Security Research 2026
 * [Push and Pull : Defending Against Retrieval Poisoning Attacks via Embedding Space Reshaping](https://dl.acm.org/doi/pdf/10.1145/3800948), ACM Trans. Inf. Syst. 2026
 
-## 4. Application of RAG
+## 5. Application of RAG
 * For Query Optimizer: [SEFRQO: A Self-Evolving Fine-Tuned RAG-Based Query Optimizer](https://dl.acm.org/doi/10.1145/3769826), SIGMOD 2026 
 * For Table QA: [AixelAsk: A Stepwise-Guided Retrieval and Reasoning Framework for Large Table QA](https://dl.acm.org/doi/10.1145/3769831), SIGMOD 2026
 * For drug: [RAG-based architectures for drug side effectretrieval using compact LLMs](https://www.nature.com/articles/s41598-026-41495-2_reference.pdf), Scientific Reports
